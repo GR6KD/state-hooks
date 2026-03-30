@@ -7,7 +7,8 @@ import TodoList from './components/TodoList';
 function App() {
   return (
     <div className="App">
-      <h1>Performance Assessment: State and Hooks</h1>
+      <h1>React State and Hooks Project</h1>
+      <p>This app demonstrates useState with multiple components.</p>
 
       <section className="card">
         <h2>Task 1: Simple Counter</h2>
