@@ -21,7 +21,7 @@ function App() {
       </section>
 
       <section className="card">
-        <h2>Task 3: Todo List</h2>
+        <h2>Task 3: Todo List Manager</h2>
         <TodoList />
       </section>
     </div>
