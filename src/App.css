@@ -1,0 +1,76 @@
+/* Page background (soft gradient instead of white) */
+body {
+  background: linear-gradient(135deg, #dbeafe, #e9f5ec);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Title */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Card sections */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Section titles */
+h2 {
+  color: #34495e;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid #ccd6dd;
+  outline: none;
+  background-color: #f9fbfd;
+}
+
+/* Solid buttons (no transparency now) */
+button {
+  padding: 10px 16px;
+  margin: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f8cff; /* stronger blue */
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #3b73d1;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #ff6b6b;
+}
+
+.delete-btn:hover {
+  background-color: #e05555;
+}
+
+/* Text */
+p {
+  color: #444;
+}
